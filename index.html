@@ -1,37 +1,45 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-        <title>Покупка</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Покупка билета</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div id="map-container">
+            <a href="https://yandex.ru/maps/org/karo_8_salaris/239772008072/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">КАРО 8 Саларис</a><a href="https://yandex.ru/maps/213/moscow/category/cinema/184105868/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Кинотеатр в Москве</a><iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=2&ll=37.423572%2C55.623097&mode=poi&poi%5Bpoint%5D=37.420542%2C55.624516&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D239772008072&z=17.6" width="1520" height="940" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+    <div class="sidebar">
         <div class="all">
-        <header>
-            <div class="head">
-                <a href="" class="back">Назад</a>
-                <h2 class="titl">Выбранный кинотеатр</h2>
-            </div>
-        </header>
-        <main>
-            <div style="position:relative;overflow:hidden;">
-                <a href="https://yandex.ru/maps/org/karo_8_salaris/239772008072/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">КАРО 8 Саларис</a><a href="https://yandex.ru/maps/213/moscow/category/cinema/184105868/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Кинотеатр в Москве</a><iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=2&ll=37.423572%2C55.623097&mode=poi&poi%5Bpoint%5D=37.420542%2C55.624516&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D239772008072&z=17.6" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
-            </div>
-            <h1 class="name">Имя кинотеатра</h1>
-            <div class="cinema">
-                <p class="subway">Метро кинотеатра</p>
-                <img src="">
+            <header>
+                <div class="head">
+                    <a href="" class="back">Назад</a>
+                    <h2 class="titl">Выбранный кинотеатр</h2>
+                </div>
+            </header>
+            <main>
+                <h1 class="name">Имя кинотеатра</h1>
+                <div class="cinema">
+                    <div class="pics">
+                        <p class="subway">Метро кинотеатра</p>
+                        <img src="">
+                    </div>
                 <div class="card">
                     <p class="rate">Рейтинг</p><p class="stars"></p>
                     <p class="feedback">Отзывы:</p>
                     <div class="reviews">
-                        <div style="width:560px;height:800px;overflow:hidden;position:relative;">
-                            <iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/239772008072?comments"></iframe><a href="https://yandex.ru/maps/org/karo_8_salaris/239772008072/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">КАРО 8 Саларис на карте Москвы — Яндекс Карты</a>
+                        <div style="width:340px;height:390px;overflow:hidden;position:relative;">
+                            <iframe style="width: 340px;height: 390px;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/239772008072?comments"></iframe><a href="https://yandex.ru/maps/org/karo_8_salaris/239772008072/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">КАРО 8 Саларис на карте Москвы — Яндекс Карты</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <a href="">Приобрести билет</a>
-        </main>
+                </div>
+                <a href="" class="buy">Приобрести билет</a>
+            </main>
         </div>
-    </body>
+    </div>
+    </div>
+</body>
 </html>
