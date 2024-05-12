@@ -4,24 +4,24 @@ body, html {
     height: 100%;
     background-color: #FFCC00;
     font-family: sans-serif;
-  }
+}
   
-  .main-container {
+.main-container {
     display: flex;
     height: 100%;
-  }
+}
   
-  #map-container {
+#map-container {
     flex: 1;
     height: 100vh;
-  }
+}
   
-  #sidebar {
+#sidebar {
     width: 500px;
     background-color: #f2f2f2;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+}
 
 header {
     background-color: #FF9900;
@@ -41,6 +41,7 @@ header {
 .sidebar {
   background-color: #FFCC00;
 }
+
 .buy {
   background-color: #FF6600;
   border-radius: 28px;
